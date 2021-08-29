@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: "ZCOOL KuaiLe", cursive;
+}
+#rock {
+  background: url(../img/r.jpeg) no-repeat;
+  width: 30%;
+  height: 20vh;
+  border: none;
+}
+#scissor {
+  background: url(../img/s.png) no-repeat;
+  width: 30%;
+  height: 20vh;
+  border: none;
+}
+#paper {
+  background: url(../img/p.png) no-repeat;
+  width: 30%;
+  height: 20vh;
+  border: none;
+}
