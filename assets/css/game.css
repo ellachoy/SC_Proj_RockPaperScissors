@@ -48,6 +48,11 @@ section {
 h1 {
   margin-bottom: 10%;
 }
-input[value] {
-  display: ;
+#user {
+  color: blue;
+  font-size: 2em;
+}
+#com {
+  color: gray;
+  font-size: 2em;
 }

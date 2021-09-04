@@ -9,7 +9,9 @@ function get_results(){
     com_cal= Math.floor(Math.random()*3);
     console.log(`com : ${com_cal}`);
     str_Input= ['Rock', 'Paper', 'Scissors'];
-    str_Out= (` user:  ${str_Input[user]}  VS  computer : ${str_Input[com_cal]} =`);
+    str_Out= (` User:  (${str_Input[user]})  VS  Computer : (${str_Input[com_cal]}) =`);
+    // user=str_Input[user];
+    // console.log(user)
 
     if(user== com_cal){
         str_Out = str_Out + "draw!"
@@ -18,7 +20,9 @@ function get_results(){
     }else{
         str_Out = str_Out + "User win"
     }
-     document.getElementById('result').innerHTML =str_Out;   
+     document.getElementById('result').innerHTML =str_Out; 
+     document.getElementById('user').innerHTML=str_Input[user]; 
+     document.getElementById('com').innerHTML=str_Input[com_cal];   
         
 }
 
